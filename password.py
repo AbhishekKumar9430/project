@@ -51,7 +51,7 @@ def check_strength(password):
         return "Strong"
 
 
-# -------- GUI -------- #
+
 
 def evaluate_password():
     pwd = entry.get()
@@ -68,7 +68,7 @@ def evaluate_password():
     entropy_label.config(text=f"Entropy: {entropy} bits")
 
 
-# -------- Tkinter Window -------- #
+# Tkinter Window 
 
 root = tk.Tk()
 root.title("Password Strength Checker")
